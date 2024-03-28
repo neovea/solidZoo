@@ -1,5 +1,9 @@
+import IFeedable from "./interfaces/IFeedable";
+import IPlayable from "./interfaces/IPlayable";
+import Animal from "./Animal";
+
 class Lion extends Animal implements IFeedable, IPlayable {
-  constructor(name) {
+  constructor(name: string) {
     super(name);
   }
 

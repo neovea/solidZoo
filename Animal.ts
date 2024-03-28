@@ -1,3 +1,5 @@
+import IAnimal from "./interfaces/IAnimal";
+
 class Animal extends IAnimal {
   constructor(name) {
     super();
